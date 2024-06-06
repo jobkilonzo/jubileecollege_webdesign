@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav{
+            background-color: green;
+            padding: 20px 20px;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            font-size: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            font-size: 14px;
+                        
+        }
+        nav ul li a{
+            
+            text-decoration: none;
+            padding: 21px 20px;
+            color: white;
+           
+        }
+        nav ul li a:hover{
+           background-color: red;
+           transition: .3s;
+           color: #b8b8b8;
+        }
+        aside img{
+            width: 300px;
+            border-radius: 50%;
+        }
+        .landing{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+        }
+        .landing-r{
+            padding: 150px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Portofolio</a></li>
+                <li><a href="">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="landing">
+        <aside class="landing-l">
+            <h2>Hello</h2>
+            <h2>I'm Samuel</h2>
+            <h1>I'm Web Developer student at Jubilee College</h1>
+        </aside>
+        <aside class="landing-r">
+            <img  src="SamuelLJackson.jpg" alt="">
+        </aside>
+    </section>
+</body>
+</html>
